@@ -1,0 +1,29 @@
+{
+  "name": "pathname",
+  "version": "1.0.0",
+  "description": "Use pathname as API similar to window.URLSearchParams",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/szymonkorytnicki/pathname.git"
+  },
+  "keywords": [
+    "pathname",
+    "url",
+    "spa",
+    "query",
+    "params",
+    "pathname",
+    "search",
+    "params"
+  ],
+  "author": "Szymon Korytnicki",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/szymonkorytnicki/pathname/issues"
+  },
+  "homepage": "https://github.com/szymonkorytnicki/pathname#readme"
+}
