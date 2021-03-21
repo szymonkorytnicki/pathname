@@ -90,11 +90,8 @@ import createPathname from 'pathname'; // or require it
 
 Creates a pathname you can manipulate.
 ```javascript
-const pathname = createPathname('/customer/:id', {id: 2});
-```
-
-```javascript
-const pathname = createPathname('/customer/:id');
+const customerPath = createPathname('/customer/:id', {id: 2});
+const customersPath = createPathname('/customers');
 ```
 
 returns pathname object.
@@ -134,6 +131,14 @@ createPathname('/customer/:id').set({id: 2});
 createPathname('/customer/:id', {id: 5})
     .set({id: 2})
     .toString(); // /customer/id/2
+```
+
+**pathname.get**
+
+get value of the key
+
+```javascript
+createPathname('/customer', {id: 2}).get('id') // 2
 ```
 
 **pathname.keys**
